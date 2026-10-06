@@ -11,6 +11,9 @@ A documentation on how I installed and setup Jellyfin on my Arch Linux pc, and t
 
 ## Installation
 
+**Note: The installation script does not use -Syu to not accidentally update everyone's system(Arch is known to break after update)**
+
+**Warning: Updates your entire system. Use -S if you don't want that**
 Install Jellyfin:
 ```bash
 sudo pacman -Syu jellyfin-web jellyfin-server
